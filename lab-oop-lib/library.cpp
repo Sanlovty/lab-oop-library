@@ -83,6 +83,16 @@ namespace library
 		_container.clear();
 	}
 
+	vector<PrintedMaterial*>::const_iterator Library::begin() const
+	{
+		return _container.begin();
+	}
+
+	vector<PrintedMaterial*>::const_iterator Library::end() const
+	{
+		return _container.end();
+	}
+
 
 	void Library::add(PrintedMaterial* printedMaterial)
 	{

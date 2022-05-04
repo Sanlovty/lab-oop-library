@@ -31,6 +31,9 @@ namespace library
 		Library(const Library& other);
 		~Library() override;
 
+		vector<PrintedMaterial*>::const_iterator begin() const;
+		vector<PrintedMaterial*>::const_iterator end() const;
+
 		void add(PrintedMaterial* printedMaterial);
 		void sortLibrary(const SORT_KEYS& key);
 
