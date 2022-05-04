@@ -3,3 +3,10 @@ Book abc 1231 e h b c
 Book aaa 113 e k b c
 Book aba 8128 e d b c
 Book adb 32 e l b c
+Journal a1 123 pub1 1 1972 a
+Journal a2 124 pub2 2 1972 b
+Journal a3 125 pub1 3 1972 c
+Journal a4 128 pub3 4 1972 d
+Journal a5 126 pub3 5 1972 e
+Journal a6 127 pub3 6 1970 f
+Journal a1 129 pub1 7 1970 j
